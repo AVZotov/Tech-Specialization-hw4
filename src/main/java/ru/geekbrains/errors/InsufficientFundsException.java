@@ -1,6 +1,6 @@
 package ru.geekbrains.errors;
 
-public class InsufficientFundsException extends Error{
+public class InsufficientFundsException extends Exception{
 
     public InsufficientFundsException() {
     }
